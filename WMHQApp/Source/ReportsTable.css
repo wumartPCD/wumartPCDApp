@@ -1,0 +1,41 @@
+
+.bordered_report_head { 
+	width: 100%;
+	margin:2px;
+}
+.bordered_report { 
+	*border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	margin:2px;
+
+	border-right: solid #086381 1px;
+	border-bottom: solid #086381 1px;
+}
+.bordered_report th {
+	background-color: #9fe7ba;
+	margin:0 auto;text-align: center;
+}
+.bordered_report td, .bordered_report th {
+	border-left: solid #086381 1px;
+	border-top: solid #086381 1px;
+	padding: 1px;
+	white-space: nowrap; 
+}
+.bordered_report td {
+	font-size: 0.9em;
+	margin:0 auto;text-align: right;
+}
+.bordered_report .cell_font_red{
+	color: red;
+}
+
+/* .bordered_report tbody tr:nth-child(odd) td{background-color: #fff;} */
+/* .bordered_report tbody tr:nth-child(even) td{background-color: #ecfaff;} */
+
+.text_left { text-align: left}
+.text_center { text-align: center; padding-top:2px; padding-bottom:13px;}
+.text_right { text-align: right}
+
+h1.report_title { text-align: center; margin-bottom: 0; font-size: 150%;}
+
